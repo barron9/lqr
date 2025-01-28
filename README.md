@@ -1,4 +1,4 @@
-# system dynamics 
+# system dynamics & control
 ## example problems and solutions
 ### 1. Ship rolling and object velocity
 ![](https://github.com/barron9/systemdynamic/blob/main/shiproll.jpg?raw=true)
