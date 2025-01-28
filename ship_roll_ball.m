@@ -45,7 +45,7 @@ v_ball = cumtrapz(t, a_ball);                % Ball's velocity (integral of acce
 figure;
 
 % Plot ship's roll angle
-subplot(3, 1, 1);
+subplot(4, 1, 1);
 plot(t, theta, 'b', 'LineWidth', 1.5);
 xlabel('Time (s)');
 ylabel('Roll Angle (rad)');
@@ -53,7 +53,7 @@ title('Ship Roll Angle');
 grid on;
 
 % Plot ship's displacement
-subplot(3, 1, 2);
+subplot(4, 1, 2);
 plot(t, x_ship, 'r', 'LineWidth', 1.5);
 xlabel('Time (s)');
 ylabel('Displacement (m)');
@@ -61,13 +61,20 @@ title('Ship Translational Displacement');
 grid on;
 
 % Plot ball's velocity
-subplot(3, 1, 3);
+subplot(4, 1, 3);
 plot(t, v_ball, 'g', 'LineWidth', 1.5);
 xlabel('Time (s)');
 ylabel('Velocity (m/s)');
 title('Ball Velocity');
 grid on;
 
+% Plot ball's velocity
+subplot(4, 1, 4);
+plot(t, a_ball, 'g', 'LineWidth', 1.5);
+xlabel('Time (s)');
+ylabel('accl (m/s^^2)');
+title('Ball acceleration');
+grid on;
 % Dynamics function
 function dydt = ship_ball_dynamics(t, y, I_ship, D_ship, K_ship, M_ship, C_ship, K_ship_translational, g, tau_ext, F_ext)
     % Unpack state variables
