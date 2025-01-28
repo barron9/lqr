@@ -1,3 +1,4 @@
+![](https://github.com/barron9/systemdynamic/blob/main/shiproll.jpg?raw=true)
 
 
 | **Method/Theorem**                  | **Type**           | **Best For**                                         | **Key Focus**                                         | **Advantages**                                      | **Disadvantages**                                        |
