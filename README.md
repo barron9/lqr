@@ -1,5 +1,5 @@
-#system dynamics 
-#example problems and solutions
+# system dynamics 
+## example problems and solutions
 ![](https://github.com/barron9/systemdynamic/blob/main/shiproll.jpg?raw=true)
 
 
